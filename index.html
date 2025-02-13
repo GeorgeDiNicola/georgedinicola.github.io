@@ -1,1 +1,224 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>George DiNicola Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="nav-logo">
+          <a href="#home">gd</a>
+        </div>
+        <div class="hamburger" id="hamburger">
+          <!-- Three bars -->
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#resume">Resume</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#hobbies">Hobbies & Interests</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="me">
+    <div class="container me-content">
+      <h1>George DiNicola</h1>
+      <p>Software Engineer | Data Analyst</p>
+      <a class="btn" href="#projects">View My Work</a>
+    </div>
+  </section>
+
+  <section id="about" class="about fade-in">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        A versatile engineer and analyst with experience in backend software engineering, 
+        DevOps, systems engineering, database development, data science, business intelligence, and machine learning
+      </p>
+    </div>
+  </section>
+
+  <section id="resume" class="resume">
+    <div class="container">
+      <h2>Resume</h2>
+      <div class="resume-content">
+        <div class="resume-column slide-in">
+          <h3>Education</h3>
+          <ul>
+            <li>
+              <strong>Columbia University</strong><br/>
+                &nbsp;&nbsp;M.S. Computer Science<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;Software Systems concentration
+            </li>
+            <li>
+                <strong>Drexel University</strong><br/>
+                  &nbsp;&nbsp;B.S. Economics <br/>&nbsp;&nbsp;B.A. Mathematics <br/>&nbsp;&nbsp;&nbsp;&nbsp;minor in Business Administration
+            </li>
+          </ul>
+        </div>
+
+        <div class="resume-column slide-in">
+          <h3>Experience</h3>
+          <ul>
+            <li>
+              <u><strong>Software Engineer II</strong> at <strong>Qualtrics</strong> (2022 - 2024)</u>
+              <br/>
+              - Contributed to designing & building scalable web services, platform infrastructure, and developer tooling
+            </li>
+            <li>
+              <u><strong>Software Engineer</strong> at <strong>Columbia University Build Lab</strong> (2022)</u>
+              <br/>
+              - Contributed to product engineering, database design, & technical project management for a startup business
+            </li>
+            <li>
+              <u><strong>Database Engineer II - DevOps</strong> at <strong>Comcast Business</strong> (2019 - 2021)</u>
+              <br/>
+              - Developed and deployed ETL (extract, transform, load) code to facilitate secure file transfers and database ingestion within the Business Intelligence Division
+              <br/>
+              - Created software & data visualizations that delivered actionable insights for increasing efficiency & minimizing technical debt
+            </li>
+            <li>
+              <u><strong>Business Intelligence Analyst I & II</strong> at <strong>New Rez, LLC</strong> (2018 - 2019)</u>
+              <br/>
+              - Implemented data science & machine learning to forecast mortgage loan sales volume
+              <br/>
+              - Developed database jobs & data visualizations used for making business decisions
+            </li>
+            <li>
+              <u><strong>Research Assistant</strong> at <strong>Drexel University</strong> (2015 - 2016)</u>
+              <br/>
+              - Collected data and programmed statistical models used for answering research questions
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="project-card fade-in">
+          <img src="images/tableau.png" alt="Jeopardy Statistics" />
+          <h3>Jeopardy Statistics</h3>
+          <p>
+            A software system that systematically scrapes, transforms, stores, and publishes Jeopardy gameplay data to Kaggle
+          </p>
+          <a href="https://www.kaggle.com/datasets/georgejdinicola/jeopardata"
+             class="btn"
+             target="_blank">View Kaggle Dataset</a>
+          <p>
+            A Tableau data visualization providing live gameplay trends and statistics
+          </p>
+          <a href="https://public.tableau.com/app/profile/george.dinicola/viz/JeopardyStatistics/JeopardyViz_1"
+             class="btn"
+             target="_blank">View Dashboard</a>
+          <p>
+            An automated machine learning model for predicting if the current champion will win the next game
+          </p>
+          <a href="https://github.com/GeorgeDiNicola/jeopardy-ml"
+             class="btn"
+             target="_blank">View Prediction History</a>
+          <p>
+        </div>
+
+        <div class="project-card fade-in">
+          <img src="images/automated-garden-project.jpg" alt="Automated Gardening System" />
+          <h3>Automated Gardening System</h3>
+          <p>
+            A proof of concept implementation of a device that automatically waters a plant based on soil moisture readings & 
+            rotate the plant in the sun as needed based on lux sensors. Created with hardware components and Arduino C code
+          </p>
+          <a href="https://github.com/GeorgeDiNicola/plant-care-automation"
+             class="btn"
+             target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Industry Experience:</strong> Web Application Development, DevOps & Infrastructure, System Design, Developer Tooling, REST APIs, Microservices Architecture, Site Reliability Engineering, Server Administration,
+          Cybersecurity Development, Database Development, Business Intelligence</li>
+        <li><strong>Languages:</strong> Python, Go, TypeScript, Bash/Shell, SQL</li>
+        <li><strong>Frameworks & Libraries:</strong> Echo, Flask, React.js, pandas, scikit-learn</li>
+        <li><strong>Databases, Infrastructure, Security, & Cloud:</strong> SQL Server, PostgreSQL, Hashicorp (Vault, Consul), LDAP, OIDC, OAuth 2.0,
+                    Hyperledger Fabric, AWS (S3, RDS, Route 53, EC2, Lambda, Elastic Container Registry, API Gateway, IAM, Billing & Cost Management, EventBridge, Cloudfront)</li>
+        <li><strong>Tools & Platforms:</strong> Docker, Git, Linux, Visual Studio Code, Tableau, Grafana, Splunk Cloud Analysis & Logging, Prometheus/PromQL, Openlens, GNU make, LucidChart, Microsoft Excel/Google Sheets, Google Docs, Jira, Slack</li>
+        <li><strong>Data Science/Analysis:</strong>Machine Learning & Statistical Modeling, Data Preprocessing, Feature Engineering, Data Visualization, Database Development, Query Optimization</li>
+      </ul>
+    </div>
+  </section>
+
+   <section id="hobbies" class="hobbies">
+    <div class="container">
+      <h2>In my free time, I enjoy:</h2>
+        <ul>
+          <li>Reading science fiction and biographies</li>
+          <li>Playing chess</li>
+          <li>Exploring hiking trails & camping</li>
+          <li>Playing board & table games</li>
+          <li>Spending time with family & friends</li>
+          <li>Visiting coffee shops</li>
+          <li>Learning to cook</li>
+          <li>Keeping up to date on Technology, Macroeconomics, & Science news</li>
+        </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>If you’d like to connect on LinkedIn or see more of my work, check out my profiles below:</h2>
+      <ul class="contact-links">
+        <li>
+          <a href="https://www.linkedin.com/in/georgedinicola/" target="_blank">
+            <img src="images/linkedin-icon.png" alt="LinkedIn"> LinkedIn
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/GeorgeDiNicola" target="_blank">
+            <img src="images/github-icon.png" alt="GitHub"> GitHub
+          </a>
+        </li>
+        <li>
+          <a href="https://public.tableau.com/app/profile/george.dinicola/vizzes" target="_blank">
+            <img src="images/tableau-icon.png" alt="Tableau"> Tableau
+          </a>
+        </li>
+        <li>
+          <a href="https://www.kaggle.com/georgejdinicola" target="_blank">
+            <img src="images/kaggle-icon.png" alt="Kaggle"> Kaggle
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 George DiNicola. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
