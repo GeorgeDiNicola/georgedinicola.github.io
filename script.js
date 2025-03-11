@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const animatedElements = document.querySelectorAll(".fade-in, .slide-in");
   
     const options = {
-      threshold: 0.3 /* once x% of the item is in view */
+      threshold: 0.2 /* once x% of the item is in view */
     };
   
     const observer = new IntersectionObserver((entries, observerRef) => {
