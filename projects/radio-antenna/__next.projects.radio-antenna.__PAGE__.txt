@@ -1,6 +1,6 @@
 1:"$Sreact.fragment"
-2:I[30608,["/_next/static/chunks/0z.b4y5lc4ks0.js","/_next/static/chunks/0_whsv0wf3fsy.js","/_next/static/chunks/0fa3a.rik6cro.js","/_next/static/chunks/0kjm_e9ep6wnn.js"],"RadioAntennaProjectPage"]
-3:I[46468,["/_next/static/chunks/0z.b4y5lc4ks0.js","/_next/static/chunks/0_whsv0wf3fsy.js"],"OutletBoundary"]
+2:I[30608,["/_next/static/chunks/122tjwfno9jdx.js","/_next/static/chunks/0_whsv0wf3fsy.js","/_next/static/chunks/0zkcaszx15wov.js","/_next/static/chunks/151952bvcer4u.js"],"RadioAntennaProjectPage"]
+3:I[46468,["/_next/static/chunks/122tjwfno9jdx.js","/_next/static/chunks/0_whsv0wf3fsy.js"],"OutletBoundary"]
 4:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/0fa3a.rik6cro.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0kjm_e9ep6wnn.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ZAfVvEUudpDON1vBu2LfK"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/0zkcaszx15wov.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/151952bvcer4u.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"3U0UfIvYYPaoXt9qkKJXH"}
 5:null
